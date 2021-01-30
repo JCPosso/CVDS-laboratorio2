@@ -45,7 +45,7 @@ Y para este caso lo configuraremos de la siguiente manera:
 - *Paquete:* edu.eci.cvds.patterns
 - *arcgetypeArtifactId:* maven-archetype-quickstart
 
-![./Img/archetype.jpg]
+![Img/archetype.jpg]
 
 Una vez configurado, en nuestro directorio se debe haber creado un nuevo proyecto
 *Patterns* a partir de un modelo arquetipo.
