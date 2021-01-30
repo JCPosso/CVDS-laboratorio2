@@ -53,7 +53,7 @@ Una vez configurado, en nuestro directorio se debe haber creado un nuevo proyect
 ![tree](Img/tree.jpg)
 
 
-###Compilando y ejecutando
+### Compilando y ejecutando
 Para compilar un proyecto en Mavnen, lo primero que debemos hacer es empaquetar
 ```
 mvn package
@@ -71,18 +71,29 @@ exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" -Dexec.args="Johann Camil
 ```
 ![Greeting](Img/Greeting.PNG)
 
-###Esqueleto de nuestra aplicación
+### Esqueleto de nuestra aplicación
 Una vez tengamos el esqueleto de nuestra aplicación implementado, procedemos a 
 compilar y ejecutar múltiples veces.
 
 - Sin parámetros
+
 ![Sin parametros](Img/ParamsRequired.PNG)
+
 - Parámetro: qwerty
+
 ![qwerty](Img/qwerty.PNG)
+
 - Parámetro: pentagon
+
 ![pentagon](Img/pentagon.PNG)
+
 - Parámetro: Hexagon
+
 ![Hexagon](Img/Hexagon.PNG)
 
 Como vemos los parametros _"qwerty"_ y _"pentagon"_ No se reconocen como una figura valida dentro
 de nuestra estructura.
+
+### Autores
+- Johann Cepeda
+- Juan Camilo Posso
