@@ -1,4 +1,4 @@
-# Ciclos de vida y desarrollo de software - Laboratorio 2
+﻿# Ciclos de vida y desarrollo de software - Laboratorio 2
 Creación de proyecto maven y conocimiento de los archivos
 
 # *Maven*
@@ -44,6 +44,8 @@ Y para este caso lo configuraremos de la siguiente manera:
 - *Id del artefacto:* Pattern
 - *Paquete:* edu.eci.cvds.patterns
 - *arcgetypeArtifactId:* maven-archetype-quickstart
+
+![./Img/archetype.jpg]
 
 Una vez configurado, en nuestro directorio se debe haber creado un nuevo proyecto
 *Patterns* a partir de un modelo arquetipo.
