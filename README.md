@@ -48,4 +48,41 @@ Y para este caso lo configuraremos de la siguiente manera:
 ![archetype](Img/archetypeConfiguration.jpg)
 
 Una vez configurado, en nuestro directorio se debe haber creado un nuevo proyecto
-*Patterns* a partir de un modelo arquetipo.
+*Patterns* a partir de un modelo arquetipo. Y usamos el siguiente comando para ver su estructura
+
+![tree](Img/tree.jpg)
+
+
+###Compilando y ejecutando
+Para compilar un proyecto en Mavnen, lo primero que debemos hacer es empaquetar
+```
+mvn package
+```
+Para compilar y ejecutar utilizamos
+```
+mvn exec:java -Dexec.mainClass="edu.eci.cvds.pattern.App"
+```
+![Ejecucion](Img/Eject.PNG)
+
+Ahora ejecutaremos, pero le enviaremos como parametros nuestros nombres para el
+saludo. Y para ello debemos agregar el siguiente comando.
+```
+exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" -Dexec.args="Johann Camilo"
+```
+![Greeting](Img/Greeting.PNG)
+
+###Esqueleto de nuestra aplicación
+Una vez tengamos el esqueleto de nuestra aplicación implementado, procedemos a 
+compilar y ejecutar múltiples veces.
+
+- Sin parámetros
+![Sin parametros](Img/ParamsRequired.PNG)
+- Parámetro: qwerty
+![qwerty](Img/qwerty.PNG)
+- Parámetro: pentagon
+![pentagon](Img/pentagon.PNG)
+- Parámetro: Hexagon
+![Hexagon](Img/Hexagon.PNG)
+
+Como vemos los parametros _"qwerty"_ y _"pentagon"_ No se reconocen como una figura valida dentro
+de nuestra estructura.
